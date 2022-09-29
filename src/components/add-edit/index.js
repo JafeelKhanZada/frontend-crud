@@ -144,6 +144,7 @@ function AddEditPopup(props) {
                       {edit ? "Update" : "Submit"}
                     </button>
                     <button
+                      type="button"
                       onClick={close}
                       className="w-full transition-all text-red-500 border border-red-500 mt-4 rounded-full p-3 hover:bg-red-500 hover:text-white"
                     >
